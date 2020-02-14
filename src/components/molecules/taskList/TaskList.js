@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // Components
-import Task from "./../Task/Task";
+import Task from "../../atoms/task/Task";
 
 function PureTaskList({ loading, tasks, onPinTask, onArchiveTask }) {
-  const events = { 
+  const events = {
     onPinTask,
     onArchiveTask
   };
