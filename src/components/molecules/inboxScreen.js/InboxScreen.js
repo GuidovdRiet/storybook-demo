@@ -29,11 +29,11 @@ function PureInboxScreen({ error }) {
 }
 
 PureInboxScreen.propTypes = {
-  error: PropTypes.string
+  error: PropTypes.string,
 };
 
 PureInboxScreen.defaultProps = {
-  error: null
+  error: null,
 };
 
 export default PureInboxScreen;
